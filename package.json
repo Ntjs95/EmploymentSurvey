@@ -1,17 +1,32 @@
 {
-  "name": "node",
+  "name": "abtest",
   "version": "1.0.0",
-  "description": "This example is for school.",
+  "description": "A proxy that goes 2 ways",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntjs95/EmploymentSurvey.git"
+  },
   "keywords": [
-    "example",
-    "heroku"
+    "node",
+    "es6",
+    "problem",
+    "solving"
   ],
-  "author": "nathan-saccon",
-  "license": "MIT"
+  "author": "NathanSaccon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhildred/abtest/issues"
+  },
+  "homepage": "https://github.com/rhildred/abtest#readme",
+  "dependencies": {
+    "express": "*",
+    "express-session": "*",
+    "http-proxy": "*"
+  }
 }
